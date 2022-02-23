@@ -686,7 +686,7 @@ section {
 .about .video-box {
   background: url("../img/videoresim.jpg") center center no-repeat;
   background-size: contain;
-  min-height: 500px;
+  min-height: 300px;
  
 }
 .about .play-btn {
