@@ -2739,7 +2739,8 @@ section {
 
 .contact .php-email-form button[type="submit"]:hover {
 
-  background: #0d12fc;
+  background: #FFD700;
+  color: black;
 
 }
 
