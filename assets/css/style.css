@@ -82,7 +82,8 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #1acc8d;
+  
+  background: #eedd84;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -90,7 +91,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .back-to-top i {
   font-size: 28px;
-  color: #fff;
+  color: black;
   line-height: 0;
 }
 .back-to-top:hover {
@@ -683,9 +684,10 @@ section {
   font-size: 14px;
 }
 .about .video-box {
-  background: url("../img/about.png") center center no-repeat;
+  background: url("../img/videoresim.jpg") center center no-repeat;
   background-size: contain;
-  min-height: 300px;
+  min-height: 500px;
+ 
 }
 .about .play-btn {
   width: 94px;
