@@ -7,7 +7,7 @@
   */
 
   // Replace contact@example.com with your real receiving email address
-  $receiving_email_address = 'mertas11@outlook.com';
+  $receiving_email_address = 'selcuk@merseloksit.com';
 
   if( file_exists($php_email_form = '../assets/vendor/php-email-form/php-email-form.php' )) {
     include( $php_email_form );
@@ -33,9 +33,12 @@
   );
   */
 
-  $contact->add_message( $_POST['name'], 'From');
+ 
+  $contact->add_message( $_POST['message']);
+  $contact->add_message('');
+  $contact->add_message('---İletişim Bilgilerim---');
+  $contact->add_message( $_POST['name'], 'İsim');
   $contact->add_message( $_POST['email'], 'Email');
-  $contact->add_message( $_POST['message'], 'Messagesd', 10);
 
   echo $contact->send();
 ?>

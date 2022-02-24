@@ -701,7 +701,7 @@ h1, h2, h3, h4, h5, h6 {
 
   position: relative;
 
-  padding: 120px 0 0 0;
+  padding: 12vh 0 0 0;
 
 }
 
@@ -725,9 +725,9 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero h1 {
 
-  margin: 0 0 20px 0;
+  margin: 0 0 10px 0;
 
-  font-size: 48px;
+  font-size: 36px;
 
   font-weight: 700;
 
@@ -2613,7 +2613,7 @@ section {
 
   color: #fff;
 
-  background: #B87333;
+  background: green;
 
   text-align: center;
 
